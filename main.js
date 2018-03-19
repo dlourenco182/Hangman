@@ -1,0 +1,1 @@
+alert('it works just fine!')
