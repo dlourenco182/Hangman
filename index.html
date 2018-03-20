@@ -7,14 +7,23 @@
     <title>Hangman</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
 </head>
 
 <body>
-    <div>
-        <p>It will be here the Hangman</p>
-    </div>
+    <div class="hangmanlocal">
+        <img src="https://owlworksllc.com/wp-content/uploads/2014/07/STICKMAN-300-100x150.png" alt="THIS IS NOT HOVER">
 
+        <button onclick="startgame()">Start</button>
+    </div>
+    <div class="container">
+        <div class="wordplace">
+            <p class="word"></p>
+        </div>
+        <div class="keyboard" id="keyboard_place">
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

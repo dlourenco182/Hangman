@@ -1,9 +1,32 @@
-p{
-    font-size: 14px;
-    color: white;
+body {
+    display: flex;
+    margin: 35px;
 }
 
-div{
-    width: 500px;
+.hangmanlocal {
+    width: 30%;
     background-color: darkslategray;
+}
+
+.container {
+    width: 70%;
+    height: 750px;
+    display: grid;
+}
+
+.wordplace {
+    width: 100%;
+    background-color: wheat;
+}
+
+.keyboard {
+    width: 100%;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.keyplay {
+    text-align: center;
+    background-color: rgb(175, 175, 175);
 }
